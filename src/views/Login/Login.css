@@ -1,3 +1,46 @@
-.login-wrapper{
-    text-align: center;
+.login-wrapper {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-wrapper {
+  border-top: 5px solid #5c2c06;
+  background: #d5a664;
+  padding: 45px 30px 45px 30px;
+  border-radius: 5px;
+  color: #5c2c06;
+}
+
+.card-wrapper input {
+  width: 300px;
+}
+
+.card-wrapper a {
+  color: #5c2c06;
+}
+
+.card-wrapper a:hover {
+  text-decoration: none;
+  color: #5c2c06;
+}
+
+.card-wrapper button {
+  width: 100%;
+  background: #5c2c06;
+  border: 1px solid transparent;
+  color: #fff;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  box-shadow: none;
+}
+
+.card-wrapper button:hover {
+  outline: none;
+  background: #d5a664 !important;
+  color: #5c2c06;
+  border-color: #5c2c06;
 }
