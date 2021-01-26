@@ -1,0 +1,29 @@
+.diaryContentWrapper {
+  min-height: 100vh;
+  width: 100vw;
+  /* background-color: #3D434B ; */
+  background-color: #212529 !important;
+}
+.nameWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.simple{
+  width: inherit;
+  display: flex;
+  justify-content: space-between;
+}
+.hide {
+  display: none;
+}
+.myDIV,
+.hoverMe:hover {
+  cursor: pointer;
+}
+.myDIV:hover + .hide {
+  display: block;
+}
+textarea {
+  overflow: auto !important;
+}

@@ -1,12 +1,16 @@
-import React from 'react';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
+import $ from 'jquery';
 
-import Router from './config/router';
-import './App.css';
+import MainRouter from "./config/router";
 
 function App() {
   return (
     <div className="App">
-      <Router />
+      <MainRouter />  
     </div>
   );
 }
